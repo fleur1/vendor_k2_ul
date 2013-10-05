@@ -35,9 +35,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vendor_onesv/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/vendor_onesv/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/vendor_onesv/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-vendor/htc/vendor_onesv/proprietary/lib/libalsa-intf.so.so:system/lib/libalsa-intf.so \
-vendor/htc/vendor_onesv/proprietary/lib/libOmxVdec.so.so:system/lib/libOmxVdec.so \
-vendor/htc/vendor_onesv/proprietary/lib/libOmxVenc.so.so:system/lib/libOmxVenc.so \
+vendor/htc/vendor_onesv/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
+vendor/htc/vendor_onesv/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+vendor/htc/vendor_onesv/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
   vendor/htc/vendor_onesv/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vendor_onesv/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/vendor_onesv/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
