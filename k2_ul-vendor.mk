@@ -17,4 +17,4 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/htc/k2ul/overlay
 
-$(call inherit-product, vendor/htc/k2ul/k2_ul-vendor-blobs.mk)
+$(call inherit-product, vendor/htc/vendor_onesv/k2_ul-vendor-blobs.mk)
