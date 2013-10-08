@@ -20,9 +20,11 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/vendor_onesv/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
+vendor/htc/vendor_onesv/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+  vendor/htc/vendor_onesv/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+  vendor/htc/vendor_onesv/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
   vendor/htc/vendor_onesv/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/vendor_onesv/proprietary/etc/calibration:system/etc/calibration \
-  vendor/htc/vendor_onesv/proprietary/etc/calibration.gpio4:system/etc/calibration.gpio4 \
   vendor/htc/vendor_onesv/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/vendor_onesv/proprietary/bin/cand:system/bin/cand \
   vendor/htc/vendor_onesv/proprietary/bin/charging:system/bin/charging \
@@ -35,9 +37,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vendor_onesv/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/vendor_onesv/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/vendor_onesv/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-vendor/htc/vendor_onesv/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
-vendor/htc/vendor_onesv/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-vendor/htc/vendor_onesv/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+vendor/htc/vendor_onesv/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+  vendor/htc/vendor_onesv/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
+# vendor/htc/vendor_onesv/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+# vendor/htc/vendor_onesv/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
   vendor/htc/vendor_onesv/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vendor_onesv/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/vendor_onesv/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
